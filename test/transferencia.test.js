@@ -24,7 +24,7 @@ describe('Transferencias', () => {
                 .send(bodyTransferencias)
 
                 expect(resposta.status).to.equal(201);
-                
+
 
                 console.log(resposta.body)
         })

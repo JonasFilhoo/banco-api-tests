@@ -10,7 +10,8 @@ const obterToken = async(usuario, senha) =>{
     
     return respostaLogin.body.token
 }
- 
+
+
 module.exports = {
     obterToken
 }
